@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\" />
+</StaticWebAssets>
