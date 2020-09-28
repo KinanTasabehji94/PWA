@@ -1,0 +1,165 @@
+﻿@page "/settings"
+@inject IJSRuntime js
+
+<!-- Header Area-->
+<div class="header-area" id="headerArea">
+    <div class="container h-100 d-flex align-items-center justify-content-between">
+        <!-- Logo Wrapper-->
+        <div class="logo-wrapper"><a href="home.html"><img src="/img/core-img/logo-small.png" alt=""></a></div>
+        <!-- Search Form-->
+        <div class="top-search-form">
+            <form action="#" method="POST">
+                <input class="form-control" type="search" placeholder="Enter your keyword">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <!-- Navbar Toggler-->
+        <div class="suha-navbar-toggler d-flex justify-content-between flex-wrap" @onclick="CallJSMethod" id="suhaNavbarToggler"><span></span><span></span><span></span></div>
+    </div>
+</div>
+<!-- Sidenav Black Overlay-->
+<div class="sidenav-black-overlay"></div>
+<!-- Side Nav Wrapper-->
+<div class="suha-sidenav-wrapper" id="sidenavWrapper">
+    <!-- Sidenav Profile-->
+    <div class="sidenav-profile">
+        <div class="user-profile"><img src="/img/bg-img/9.jpg" alt=""></div>
+        <div class="user-info">
+            <h6 class="user-name mb-0">Suha Jannat</h6>
+            <p class="available-balance">Balance <span>$<span class="counter">379.23</span></span></p>
+        </div>
+    </div>
+    <!-- Sidenav Nav-->
+    <ul class="sidenav-nav">
+        <li><a href="profile.html"><i class="lni-user"></i>My Profile</a></li>
+        <li><a href="notifications.html"><i class="lni-alarm lni-tada-effect"></i>Notifications<span class="ml-3 badge badge-warning">3</span></a></li>
+        <li><a href="pages.html"><i class="lni-empty-file"></i>All Pages</a></li>
+        <li><a href="wishlist-grid.html"><i class="lni-heart-filled"></i>My Wishlist</a></li>
+        <li><a href="settings.html"><i class="lni-cog"></i>Settings</a></li>
+        <li><a href="intro.html"><i class="lni-power-switch"></i>Sign Out</a></li>
+    </ul>
+    <!-- Go Back Button-->
+    <div class="go-home-btn" id="goHomeBtn"><i class="lni-arrow-left"></i></div>
+</div>
+<div class="page-content-wrapper">
+    <div class="container">
+        <!-- Settings Wrapper-->
+        <div class="settings-wrapper py-3">
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-check-mark-circle"></i><span>Availability</span></div>
+                        <div class="data-content">
+                            <div class="toggle-button-cover">
+                                <div class="button r">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-alarm"></i><span>Notifications</span></div>
+                        <div class="data-content">
+                            <div class="toggle-button-cover">
+                                <div class="button r">
+                                    <input class="checkbox" type="checkbox" checked>
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-night"></i><span>Night Mode</span></div>
+                        <div class="data-content">
+                            <div class="toggle-button-cover">
+                                <div class="button r">
+                                    <input class="checkbox" id="darkSwitch" type="checkbox" @onchange="darkMode" >
+                                    <div class="knobs"></div>
+                                    <div class="layer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-world"></i><span>Language</span></div>
+                        <div class="data-content"><a href="language.html">English<i class="lni-chevron-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-question-circle"></i><span>Support</span></div>
+                        <div class="data-content"><a class="pl-4" href="support.html"><i class="lni-chevron-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-protection"></i><span>Privacy</span></div>
+                        <div class="data-content"><a class="pl-4" href="privacy-policy.html"><i class="lni-chevron-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card settings-card">
+                <div class="card-body">
+                    <!-- Single Settings-->
+                    <div class="single-settings d-flex align-items-center justify-content-between">
+                        <div class="title"><i class="lni-lock"></i><span>Password<span>Updated 2 month ago</span></span></div>
+                        <div class="data-content"><a href="change-password.html">Change<i class="lni-chevron-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <p id="demop">Hello</p>
+</div>
+
+<!-- Footer Nav-->
+<div class="footer-nav-area" id="footerNav">
+    <div class="suha-footer-nav h-100">
+        <ul class="h-100 d-flex align-items-center justify-content-between">
+            <li class="active"><a href="home.html"><i class="lni-home"></i>Home</a></li>
+            <li><a href="message.html"><i class="lni-support"></i>Support</a></li>
+            <li><a href="cart.html"><i class="lni-cart"></i>Cart</a></li>
+            <li><a href="pages.html"><i class="lni-heart"></i>Pages</a></li>
+            <li><a href="settings.html"><i class="lni-cog"></i>Settings</a></li>
+        </ul>
+    </div>
+</div>
+
+@code {
+    protected async Task CallJSMethod()
+    {
+        await js.InvokeVoidAsync("x");
+    }
+    protected async Task darkMode()
+    {
+        await js.InvokeVoidAsync("darkMode");
+    }
+}
