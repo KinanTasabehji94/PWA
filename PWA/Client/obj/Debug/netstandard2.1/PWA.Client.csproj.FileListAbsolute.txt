@@ -5,7 +5,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\PWA.Cl
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\service-worker-assets.js
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\service-worker.js
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Client.dll
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Buffers.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\mscorlib.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Threading.Tasks.Extensions.dll
@@ -42,7 +41,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroo
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.ComponentModel.DataAnnotations.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Shared.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.WebAssembly.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.Primitives.dll
@@ -58,7 +56,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroo
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.JSInterop.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Client.pdb
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Shared.pdb
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\wasm\dotnet.3.2.0.js
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\wasm\dotnet.timezones.dat
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\wasm\dotnet.wasm
@@ -66,7 +63,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroo
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\blazor.boot.json
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\service-worker-assets.js.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Client.dll.gz
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Buffers.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\mscorlib.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Threading.Tasks.Extensions.dll.gz
@@ -103,7 +99,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroo
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.ComponentModel.DataAnnotations.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.Logging.Abstractions.dll.gz
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Shared.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.Extensions.Primitives.dll.gz
@@ -119,7 +114,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroo
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.JSInterop.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Client.pdb.gz
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\PWA.Shared.pdb.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\wasm\dotnet.3.2.0.js.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\wasm\dotnet.timezones.dat.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\wwwroot\_framework\wasm\dotnet.wasm.gz
@@ -165,8 +159,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Cl
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.csproj.CoreCompileInputs.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.RazorComponent.input.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -177,8 +169,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Cl
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.TagHelpers.output.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.RazorCoreGenerate.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
@@ -187,7 +177,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.RazorTargetAssemblyInfo.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.csproj.CopyComplete
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash
@@ -245,7 +234,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integr
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\blazor\blazor.boot.json
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\service-worker-assets.js.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Client.dll.gz
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\mscorlib.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Tasks.Extensions.dll.gz
@@ -282,7 +270,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compre
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.ComponentModel.DataAnnotations.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.Logging.Abstractions.dll.gz
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Shared.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.Primitives.dll.gz
@@ -298,7 +285,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compre
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.JSInterop.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Client.pdb.gz
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Shared.pdb.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\wasm\dotnet.3.2.0.js.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\wasm\dotnet.timezones.dat.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\wasm\dotnet.wasm.gz
@@ -306,7 +292,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compre
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\blazor.boot.json.gz
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\service-worker-assets.js.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Client.dll.br
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\mscorlib.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Threading.Tasks.Extensions.dll.br
@@ -343,7 +328,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compre
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.ComponentModel.DataAnnotations.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.Logging.Abstractions.dll.br
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Shared.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.AspNetCore.Components.WebAssembly.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.DependencyInjection.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.Primitives.dll.br
@@ -359,7 +343,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compre
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.JSInterop.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.JSInterop.WebAssembly.dll.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Client.pdb.br
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\PWA.Shared.pdb.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\wasm\dotnet.3.2.0.js.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\wasm\dotnet.timezones.dat.br
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\compressed\_framework\wasm\dotnet.wasm.br
@@ -371,8 +354,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Cl
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\PWA.Client.pdb
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\blazor\serviceworkers\wwwroot\service-worker.js
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\blazor\service-worker-assets.js
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\EoVniE58iA_AvfbORNaMjfuTmSJmS0WU07y98yXa8eA=.hash
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\vVtoaTDNmEDO8aBGysuxxHSngbdGRDGw8kdniNe7N-w=.hash
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\bin\Debug\netstandard2.1\web.config
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Intro.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Intro.razor.g.cs
@@ -384,8 +365,21 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorD
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Register.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Settings.razor.g.cs
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Settings.razor.g.cs
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\9McP3dBDEvmVmVxfdEkJlFok_w2OkCcMF4SLKfuvQjs=.hash
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\f6tl8Ttg07DcHyz3Tq5JI4q3ppS9pklH-BuG13ETwis=.hash
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\n3I7g1F71aQuu0uX6Dt31AIPg5o4CQZfOx1Mq-NSKVA=.hash
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\GjfPpt-qA-bN8tvntJXQ8P42zgwoufWucqqDndHEGSs=.hash
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\ZRu6ARjEa6S5-UKahafJ0yPY5v98em-Ac0W9AM-QgdU=.hash
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ChangePassword.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Footer.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Header.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\ChangePassword.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Shared\Footer.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Shared\Header.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Language.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Privacy.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Language.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Privacy.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ForgetPasswordSuccess.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\ForgetPasswordSuccess.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Profile.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Profile.razor.g.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\nTD6Vpe_y27KdP4W_Z1_StPnqR7RRHd7fyNZuA0DTxQ=.hash
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\7yVQvkfxiC9qKvvW2nt6dYezpIWvfr45eQ26Oj7XKX4=.hash
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\L0UEDnHJpDTHiIPGwEdLzXXcS8gY-QPEIPiL6qjOy68=.hash
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\Yb7yPeMimIfoTgzHNemjugSDclp1N8bmAdsyoYqXOXw=.hash

@@ -1,16 +1,28 @@
-﻿function x() {
+﻿// Navbar
+function NavbarToggler() {
     document.getElementById("sidenavWrapper").classList.add("nav-active");
     document.getElementById("headerArea").classList.add("header-out");
     document.getElementById("footerNav").classList.add("footer-out");
-    document.getElementsByClassName("sidenav-black-overlay").classList.add("active");
-
-    //document.getElementById("demop").innerHTML = "JavaScript Method invoked";
-    console.log("Hello World");
+    document.getElementsByClassName("sidenav-black-overlay")[0].classList.add("active");
 }
+
+function goHomeBtn() {
+    document.getElementById("sidenavWrapper").classList.remove("nav-active");
+    document.getElementById("headerArea").classList.remove("header-out");
+    document.getElementById("footerNav").classList.remove("footer-out");
+    document.getElementsByClassName("sidenav-black-overlay")[0].classList.remove("active");
+}
+
+function SidenavBlackOverlay() {
+    document.getElementById("sidenavWrapper").classList.remove("nav-active");
+    document.getElementById("headerArea").classList.remove("header-out");
+    document.getElementById("footerNav").classList.remove("footer-out");
+    document.getElementsByClassName("sidenav-black-overlay")[0].classList.remove("active");
+}
+
 
 // Dark Mode JS
 function darkMode() {
-    console.log("Hello World");
 
     var toggleSwitch = document.getElementById('darkSwitch');
     var currentTheme = localStorage.getItem('theme');
@@ -19,21 +31,31 @@ function darkMode() {
         document.documentElement.setAttribute('data-theme', currentTheme);
         if (currentTheme === 'dark') {
             if (toggleSwitch) {
-                toggleSwitch.checked = true;
+                toggleSwitch.checked = false;
+                console.log("Hello World0");
             }
         }
+        console.log("Hello World1");
     }
+
 
     function switchTheme(e) {
         if (e.target.checked) {
             document.documentElement.setAttribute('data-theme', 'dark');
             localStorage.setItem('theme', 'dark');
+            console.log("Hello World2");
+
         } else {
             document.documentElement.setAttribute('data-theme', 'light');
             localStorage.setItem('theme', 'light');
+            console.log("Hello World3");
+
         }
     }
+
+
     if (toggleSwitch) {
         toggleSwitch.addEventListener('change', switchTheme, false);
+        console.log("Hello World4");
     }
 }

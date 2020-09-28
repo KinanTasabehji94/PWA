@@ -1,4 +1,4 @@
-(function kinan($) {
+(function ($) {
     'use strict';
 
     var suhaWindow = $(window);
