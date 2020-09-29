@@ -7,6 +7,12 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using BlazorMovies.Client.Auth;
+using PWA.Client.Repositories.Interface;
+using PWA.Client.Repositories;
+using Microsoft.AspNetCore.Components.Authorization;
+using PWA.Client.Auth;
+using PWA.Client.Helpers;
 
 namespace PWA.Client
 {
@@ -18,6 +24,14 @@ namespace PWA.Client
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddScoped<IHttpService, HttpService>();
+
+            builder.Services.AddScoped<JWTAuthenticationStateProvider>();
+            builder.Services.AddScoped<IAccounts, AccountsRepository>();
+            builder.Services.AddScoped<AuthenticationStateProvider, JWTAuthenticationStateProvider>(
+                         provider => provider.GetRequiredService<JWTAuthenticationStateProvider>());
+            builder.Services.AddScoped<ILoginService, JWTAuthenticationStateProvider>(
+                provider => provider.GetRequiredService<JWTAuthenticationStateProvider>());
 
             await builder.Build().RunAsync();
         }

@@ -6,4 +6,3 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Sh
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csproj.CoreCompileInputs.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.pdb
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csprojAssemblyReference.cache
