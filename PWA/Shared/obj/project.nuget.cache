@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DpTjgl6PTor1zQUAzEspuIIWgC+PHcK+b/t/2sw4qXR0Hz9FYQgBrpnAUxdMGJ0Y9ezd+GHNkEJyQ4Zdbm64zg==",
+  "dgSpecHash": "XKZTjydFTNFv01uqux/bNMoO955HWtKDn6Ln6saewAEuDTiECw4CfJ02CaHwchbXL0yKGfWSIF631uysw32LtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kinan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

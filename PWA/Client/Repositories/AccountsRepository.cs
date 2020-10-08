@@ -19,9 +19,9 @@ namespace PWA.Client.Repositories
         }
 
 
-        public async Task<UserToken> Register(UserInfo userInfo)
+        public async Task<UserToken> Register(UserRegister userRegister)
         {
-            var httpResponse = await httpService.Post<UserInfo, UserToken>($"{baseURL}/create", userInfo);
+            var httpResponse = await httpService.Post<UserRegister, UserToken>($"{baseURL}/create", userRegister);
 
             if (!httpResponse.Success)
             {
@@ -31,9 +31,9 @@ namespace PWA.Client.Repositories
             return httpResponse.Response;
         }
 
-        public async Task<UserToken> Login(UserInfo userInfo)
+        public async Task<UserToken> Login(UserLogIn userLogIn)
         {
-            var httpResponse = await httpService.Post<UserInfo, UserToken>($"{baseURL}/login", userInfo);
+            var httpResponse = await httpService.Post<UserLogIn, UserToken>($"{baseURL}/login", userLogIn);
 
             if (!httpResponse.Success)
             {

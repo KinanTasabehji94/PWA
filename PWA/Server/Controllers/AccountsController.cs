@@ -33,42 +33,43 @@ namespace PWA.Server.Controllers
             _configuration = configuration;
         }
         [HttpPost("Create")]
-        public async Task<ActionResult<UserToken>> CreateUser([FromBody] UserInfo model)
+        public async Task<ActionResult<UserToken>> CreateUser([FromBody] UserRegister model)
         {
-            var user = new IdentityUser { UserName = model.Email, Email = model.Email, PhoneNumber=model.PhoneNumber };
+            var user = new IdentityUser { UserName = model.Email, Email = model.Email, PhoneNumber = model.PhoneNumber };
             var result = await _userManager.CreateAsync(user, model.Password);
+            if (result.Succeeded)
+            {
+                var UserLogIn = new UserLogIn { Email = model.Email, Password = model.Password};
+                return await BuildToken(UserLogIn);
+            }
+            else
+            {
+                return BadRequest("This User has already Registered!");
+            }
+        }
+        [HttpPost("Login")]
+        public async Task<ActionResult<UserToken>> Login([FromBody] UserLogIn model)
+        {
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, isPersistent: false, lockoutOnFailure: false);
             if (result.Succeeded)
             {
                 return await BuildToken(model);
             }
             else
             {
-                return BadRequest("Username or password invalid");
+                return BadRequest("Invalid Login Attempt, Email or Password is incorrect!");
             }
         }
-        [HttpPost("Login")]
-        public async Task<ActionResult<UserToken>> Login([FromBody] UserInfo userInfo)
-        {
-            var result = await _signInManager.PasswordSignInAsync(userInfo.Email, userInfo.Password, isPersistent: false, lockoutOnFailure: false);
-            if (result.Succeeded)
-            {
-                return await BuildToken(userInfo);
-            }
-            else
-            {
-                return BadRequest("Invalid Login Attempt");
-            }
-        }
-        private async Task<UserToken> BuildToken(UserInfo userinfo)
+        private async Task<UserToken> BuildToken(UserLogIn model)
         {
             var claims = new List<Claim>()
             {
-                new Claim(ClaimTypes.Name, userinfo.Email),
-                new Claim(ClaimTypes.Email, userinfo.Email),
+                new Claim(ClaimTypes.Name, model.Email),
+                new Claim(ClaimTypes.Email, model.Email),
                 new Claim("myvalue", "whatever I want")
             };
 
-            var identityUser = await _userManager.FindByEmailAsync(userinfo.Email);
+            var identityUser = await _userManager.FindByEmailAsync(model.Email);
             var claimsDB = await _userManager.GetClaimsAsync(identityUser);
 
             claims.AddRange(claimsDB);
