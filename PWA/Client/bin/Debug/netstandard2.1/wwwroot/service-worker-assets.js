@@ -349,11 +349,7 @@
       "url": "manifest.json"
     },
     {
-<<<<<<< HEAD
-      "hash": "sha256-ot5pPkXUuTh\/YOH8wayR756E5kdtdtHg\/BmwlOExW1I=",
-=======
-      "hash": "sha256-rdlPpF8L8MJNeKkHf34W7w27LqgjIm57W1H32RwSgvk=",
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+      "hash": "sha256-sIMYJavRBOirZgWFxjXQ8zbPza2CJuA79tBWE3oXNe0=",
       "url": "_framework\/_bin\/PWA.Client.dll"
     },
     {
@@ -561,11 +557,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-<<<<<<< HEAD
-      "hash": "sha256-JfS34kPCklCMCp33aq0Ds3a2br5fwPTcovnhWrrF1Bc=",
-=======
-      "hash": "sha256-GTbx9ElYnGpPhsk21664VE8enEoNqqEbx7mj2ptIMyA=",
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+      "hash": "sha256-nXdf7Zsx0EambHDUJkxEAKP6afRY7hahloZ+r7QD\/HQ=",
       "url": "_framework\/_bin\/PWA.Shared.dll"
     },
     {
@@ -581,19 +573,11 @@
       "url": "_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll"
     },
     {
-<<<<<<< HEAD
-      "hash": "sha256-em9GBEq0tDLKOgmpyRIy7ikLgs82hS6sDpuzEMKHzHA=",
+      "hash": "sha256-yOdqSKWfC9FLNPsAaLR0oHdmuTYZAb\/dCl\/nrgQlv6g=",
       "url": "_framework\/_bin\/PWA.Client.pdb"
     },
     {
-      "hash": "sha256-bQspyMdeRlH3y80Yvz+D3PLuSW7rKfka64IkktmzTl4=",
-=======
-      "hash": "sha256-0VppmCtT1NBLFGrRAKcCSpBm70xMO0oDlopAoz+OFhY=",
-      "url": "_framework\/_bin\/PWA.Client.pdb"
-    },
-    {
-      "hash": "sha256-yWwxyd5oRGk6j6AxYM5tIS0\/KwSO5I9WJb61Ne3SDeY=",
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+      "hash": "sha256-dxkzlYtW2UokxR\/PeQjXtzWPld1c3Sv+4tolxKYKA5A=",
       "url": "_framework\/_bin\/PWA.Shared.pdb"
     },
     {
@@ -613,17 +597,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-<<<<<<< HEAD
-      "hash": "sha256-MSF21ePS9vZKuLCSwi9BMhjNOB+IgjZbLT3fEMQE76Q=",
+      "hash": "sha256-eYtpXQdquWG48HU6KWrJDudZoySnZB7K5t0GAQUcseE=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "A4Ah3xO4"
-=======
-      "hash": "sha256-dOjqAX8VnLKCsX+O00xVpskKKHfBBVqJAAYiyLbcX6I=",
-      "url": "_framework\/blazor.boot.json"
-    }
-  ],
-  "version": "qttPkpf9"
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+  "version": "wTtP+fBe"
 };

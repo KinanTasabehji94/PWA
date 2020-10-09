@@ -852,3 +852,12 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integr
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\dOjqAX8VnLKCsX_O00xVpskKKHfBBVqJAAYiyLbcX6I=.hash
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\_WoTZA7Q9dgdbGp1PoUlIW1xocewL9-Nknup_iJvajs=.hash
 >>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Auth\Logout.razor.g.cs
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Auth\Logout.razor.g.cs
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\cYF5fwxpYa6xx1UBTV3AOMwXz5N9fWomfGx9d43eKfA=.hash
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\sIMYJavRBOirZgWFxjXQ8zbPza2CJuA79tBWE3oXNe0=.hash
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\nXdf7Zsx0EambHDUJkxEAKP6afRY7hahloZ_r7QD-HQ=.hash
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\yOdqSKWfC9FLNPsAaLR0oHdmuTYZAb-dCl-nrgQlv6g=.hash
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\dxkzlYtW2UokxR-PeQjXtzWPld1c3Sv_4tolxKYKA5A=.hash
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\eYtpXQdquWG48HU6KWrJDudZoySnZB7K5t0GAQUcseE=.hash
+C:\Users\ENG\Source\Repos\PWANew\PWA\Client\obj\Debug\netstandard2.1\integrity\wCnGNqjBONo-PBo1ejY419dgCX19ReqS1c-r7HZkzrQ=.hash

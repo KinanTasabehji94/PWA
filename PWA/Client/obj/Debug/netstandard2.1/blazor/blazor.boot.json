@@ -6,11 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-<<<<<<< HEAD
-      "PWA.Client.dll": "sha256-ot5pPkXUuTh\/YOH8wayR756E5kdtdtHg\/BmwlOExW1I=",
-=======
-      "PWA.Client.dll": "sha256-rdlPpF8L8MJNeKkHf34W7w27LqgjIm57W1H32RwSgvk=",
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+      "PWA.Client.dll": "sha256-sIMYJavRBOirZgWFxjXQ8zbPza2CJuA79tBWE3oXNe0=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-yFTwTS16q6jefUDI6nVJSEskooCjUCYQYKoLAkZ2nck=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -62,23 +58,14 @@
       "Microsoft.Extensions.Logging.dll": "sha256-+kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=",
       "Microsoft.Extensions.Options.dll": "sha256-jy2f00FanofpLVaiV0ZLVMwgeQoAAw0lk598xWLLjCw=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs=",
-<<<<<<< HEAD
-      "PWA.Shared.dll": "sha256-JfS34kPCklCMCp33aq0Ds3a2br5fwPTcovnhWrrF1Bc=",
-=======
-      "PWA.Shared.dll": "sha256-GTbx9ElYnGpPhsk21664VE8enEoNqqEbx7mj2ptIMyA=",
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+      "PWA.Shared.dll": "sha256-nXdf7Zsx0EambHDUJkxEAKP6afRY7hahloZ+r7QD\/HQ=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-ke6Q\/xgZ4S1GlnU3EPO8TQYcI5FdDbg9t4C\/JGKvSrY=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-OJlJ\/n0p9\/SW1kpHK6YE8g6oWHKImKZVf+VvZlVBJ60=",
       "Microsoft.AspNetCore.Metadata.dll": "sha256-C4iHzDU4kEkfkK3SIyKjVTaq4QMC+rxGcdJTuYWWiJM="
     },
     "pdb": {
-<<<<<<< HEAD
-      "PWA.Client.pdb": "sha256-em9GBEq0tDLKOgmpyRIy7ikLgs82hS6sDpuzEMKHzHA=",
-      "PWA.Shared.pdb": "sha256-bQspyMdeRlH3y80Yvz+D3PLuSW7rKfka64IkktmzTl4="
-=======
-      "PWA.Client.pdb": "sha256-0VppmCtT1NBLFGrRAKcCSpBm70xMO0oDlopAoz+OFhY=",
-      "PWA.Shared.pdb": "sha256-yWwxyd5oRGk6j6AxYM5tIS0\/KwSO5I9WJb61Ne3SDeY="
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
+      "PWA.Client.pdb": "sha256-yOdqSKWfC9FLNPsAaLR0oHdmuTYZAb\/dCl\/nrgQlv6g=",
+      "PWA.Shared.pdb": "sha256-dxkzlYtW2UokxR\/PeQjXtzWPld1c3Sv+4tolxKYKA5A="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",
