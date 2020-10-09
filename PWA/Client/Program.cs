@@ -1,5 +1,6 @@
 using System;
 using System.Net.Http;
+
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Text;
@@ -13,6 +14,8 @@ using PWA.Client.Repositories;
 using Microsoft.AspNetCore.Components.Authorization;
 using PWA.Client.Auth;
 using PWA.Client.Helpers;
+using PWA.Client.Repositories.Interfaces;
+using Blazor.FileReader;
 
 namespace PWA.Client
 {
@@ -26,8 +29,14 @@ namespace PWA.Client
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddScoped<IHttpService, HttpService>();
 
+
+            //Add Image
+            builder.Services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
+            
             builder.Services.AddScoped<JWTAuthenticationStateProvider>();
             builder.Services.AddScoped<IAccounts, AccountsRepository>();
+            builder.Services.AddScoped<ICategory, CategoryRepository>();
+
             builder.Services.AddScoped<AuthenticationStateProvider, JWTAuthenticationStateProvider>(
                          provider => provider.GetRequiredService<JWTAuthenticationStateProvider>());
             builder.Services.AddScoped<ILoginService, JWTAuthenticationStateProvider>(

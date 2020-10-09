@@ -1,0 +1,53 @@
+﻿@page "/category/edit/{CategoryId:int}"
+@inject ICategory categoryRepository
+@inject NavigationManager navigationManager
+@*@attribute [Authorize(Roles = "Admin")]*@
+
+<h3>Edit Category</h3>
+
+@if (category != null)
+{
+<EditForm Model="category" OnValidSubmit="Edit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@category.Name" />
+            <ValidationMessage For="@(() => category.Name)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@category.Description" />
+            <ValidationMessage For="@(() => category.Description)" />
+        </div>
+    </div>
+    <div class="form-group">
+        <InputImg Label="Picture" OnSelectedImage="PictureSelected" ImageURL="@imageURL" />
+    </div>
+
+    <button class="btn btn-success" type="submit">Save Changes</button>
+</EditForm>}
+
+@code { [Parameter] public int CategoryId { get; set; }
+    public Category category;
+    string imageURL;
+
+    protected override async Task OnInitializedAsync()
+    {
+        category = await categoryRepository.GetCategory(CategoryId);
+    }
+
+    private void Edit()
+    {
+        categoryRepository.UpdateCategory(category);
+        navigationManager.NavigateTo("categories");
+    }
+    private void PictureSelected(string imageBase64)
+    {
+        category.Image = imageBase64;
+        imageURL = null;
+        Console.WriteLine(imageBase64);
+    }
+    }

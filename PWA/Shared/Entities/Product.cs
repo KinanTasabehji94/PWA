@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PWA.Server.Models
+namespace PWA.Shared.Entities
 {
     public partial class Product
     {

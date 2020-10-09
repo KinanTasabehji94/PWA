@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "8.0",
+    "languageVersion": "",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -1719,12 +1719,28 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Tewr.Blazor.FileReader/1.5.0.20109": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.6",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazor.FileReader.dll": {
+            "assemblyVersion": "1.5.0.20109",
+            "fileVersion": "1.5.0.20109"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazor.FileReader.dll": {}
+        }
+      },
       "PWA.Client/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Authorization": "3.1.8",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.1",
           "PWA.Shared": "1.0.0",
-          "System.Net.Http.Json": "3.2.0"
+          "System.Net.Http.Json": "3.2.0",
+          "Tewr.Blazor.FileReader": "1.5.0.20109"
         },
         "runtime": {
           "PWA.Client.dll": {}
@@ -4135,6 +4151,13 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Tewr.Blazor.FileReader/1.5.0.20109": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9JHZCdUlX7elh1493aDgkAc09BHJPUho6Bqox0+yL+DIqnU1f/U5FkYm11vdvM60+AYZcMZApJBF8t5BhdzzUA==",
+      "path": "tewr.blazor.filereader/1.5.0.20109",
+      "hashPath": "tewr.blazor.filereader.1.5.0.20109.nupkg.sha512"
     },
     "PWA.Client/1.0.0": {
       "type": "project",
