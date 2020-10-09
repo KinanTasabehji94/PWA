@@ -51,7 +51,14 @@
                         <div class="data-content">
                             <div class="toggle-button-cover">
                                 <div class="button r">
-                                    <input class="checkbox" id="darkSwitch" type="checkbox" @onchange="darkMode">
+                                    @if (mode == "dark")
+                                    {
+                                        <input class="checkbox" id="darkSwitch" type="checkbox" checked="checked" @onchange="darkMode">
+                                    }
+                                    else
+                                    {
+                                        <input class="checkbox" id="darkSwitch" type="checkbox" @onchange="darkMode">
+                                    }
                                     <div class="knobs"></div>
                                     <div class="layer"></div>
                                 </div>
@@ -103,9 +110,13 @@
 <Footer />
 
 @code {
-
+    private string mode;
     protected async Task darkMode()
     {
         await js.InvokeVoidAsync("darkMode");
+    }
+    protected async override Task OnInitializedAsync()
+    {
+        mode = await js.InvokeAsync<string>("GetDarkMode");
     }
 }

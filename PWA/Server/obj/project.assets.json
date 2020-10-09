@@ -1837,6 +1837,9 @@
       "PWA.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
         "compile": {
           "bin/placeholder/PWA.Shared.dll": {}
         },
@@ -6679,11 +6682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
+      "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
       "projectName": "PWA.Server",
-      "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
+      "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
       "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\obj\\",
+      "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6703,11 +6706,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
-              "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj"
+            "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
+              "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj"
             },
-            "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
-              "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
+            "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
+              "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
             }
           }
         }
@@ -6775,5 +6778,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\PWA.Server.csproj": {}
+    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
+    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj",
+        "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj",
         "projectName": "PWA.Client",
-        "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj",
+        "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj",
         "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\obj\\",
+        "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
-                "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
+              "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\PWA.Server.csproj": {
+    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
+        "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
         "projectName": "PWA.Server",
-        "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
+        "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
         "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Server\\obj\\",
+        "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -119,11 +119,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
-                "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Client\\PWA.Client.csproj"
+              "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
+                "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj"
               },
-              "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
-                "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
+              "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
               }
             }
           }
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
+    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj",
         "projectName": "PWA.Shared",
-        "projectPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj",
+        "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj",
         "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENG\\source\\repos\\PWANew\\PWA\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -229,6 +229,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

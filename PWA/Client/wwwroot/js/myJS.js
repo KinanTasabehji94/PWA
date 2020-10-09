@@ -21,6 +21,11 @@ function SidenavBlackOverlay() {
 }
 
 
+//GetDarkMode Function
+function GetDarkMode() {
+    return localStorage.getItem('theme');
+}
+
 // Dark Mode JS
 function darkMode() {
 
@@ -35,9 +40,9 @@ function darkMode() {
                 console.log("Hello World0");
             }
         }
+          
         console.log("Hello World1");
     }
-
 
     function switchTheme(e) {
         if (e.target.checked) {

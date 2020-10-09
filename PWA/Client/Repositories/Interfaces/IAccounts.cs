@@ -8,8 +8,8 @@ namespace PWA.Client.Repositories.Interface
 {
     public interface IAccounts
     {
-        Task<UserToken> Login(UserInfo userInfo);
-        Task<UserToken> Register(UserInfo userInfo);
+        Task<UserToken> Login(UserLogIn userLogIn);
+        Task<UserToken> Register(UserRegister userRegister);
         Task<UserToken> RenewToken();
     }
 }

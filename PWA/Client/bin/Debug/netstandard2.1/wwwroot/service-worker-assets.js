@@ -321,7 +321,7 @@
       "url": "js\/jquery.min.js"
     },
     {
-      "hash": "sha256-9rgsSH6OU+Utc3Hcxd2F7VSJhildckHTOTM2+9rZrt4=",
+      "hash": "sha256-k+C0o8zER04kEUpdqWYCPk1Rk7Xo\/mppi33uBOpbA30=",
       "url": "js\/myJS.js"
     },
     {
@@ -349,7 +349,11 @@
       "url": "manifest.json"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-ot5pPkXUuTh\/YOH8wayR756E5kdtdtHg\/BmwlOExW1I=",
+=======
+      "hash": "sha256-rdlPpF8L8MJNeKkHf34W7w27LqgjIm57W1H32RwSgvk=",
+>>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
       "url": "_framework\/_bin\/PWA.Client.dll"
     },
     {
@@ -557,7 +561,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-JfS34kPCklCMCp33aq0Ds3a2br5fwPTcovnhWrrF1Bc=",
+=======
+      "hash": "sha256-GTbx9ElYnGpPhsk21664VE8enEoNqqEbx7mj2ptIMyA=",
+>>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
       "url": "_framework\/_bin\/PWA.Shared.dll"
     },
     {
@@ -573,11 +581,19 @@
       "url": "_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-em9GBEq0tDLKOgmpyRIy7ikLgs82hS6sDpuzEMKHzHA=",
       "url": "_framework\/_bin\/PWA.Client.pdb"
     },
     {
       "hash": "sha256-bQspyMdeRlH3y80Yvz+D3PLuSW7rKfka64IkktmzTl4=",
+=======
+      "hash": "sha256-0VppmCtT1NBLFGrRAKcCSpBm70xMO0oDlopAoz+OFhY=",
+      "url": "_framework\/_bin\/PWA.Client.pdb"
+    },
+    {
+      "hash": "sha256-yWwxyd5oRGk6j6AxYM5tIS0\/KwSO5I9WJb61Ne3SDeY=",
+>>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
       "url": "_framework\/_bin\/PWA.Shared.pdb"
     },
     {
@@ -597,9 +613,17 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
+<<<<<<< HEAD
       "hash": "sha256-MSF21ePS9vZKuLCSwi9BMhjNOB+IgjZbLT3fEMQE76Q=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
   "version": "A4Ah3xO4"
+=======
+      "hash": "sha256-dOjqAX8VnLKCsX+O00xVpskKKHfBBVqJAAYiyLbcX6I=",
+      "url": "_framework\/blazor.boot.json"
+    }
+  ],
+  "version": "qttPkpf9"
+>>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
 };
