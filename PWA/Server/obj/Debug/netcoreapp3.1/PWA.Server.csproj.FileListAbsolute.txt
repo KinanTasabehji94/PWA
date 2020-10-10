@@ -250,8 +250,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Microso
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.csproj.CoreCompileInputs.cache
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ENG\Source\Repos\PWANew\PWA\Server\bin\Debug\netcoreapp3.1\web.config
 C:\Users\ENG\Source\Repos\PWANew\PWA\Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\ENG\Source\Repos\PWANew\PWA\Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -507,3 +505,8 @@ C:\Users\ENG\Source\Repos\PWANew\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.d
 C:\Users\ENG\Source\Repos\PWANew\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.pdb
 C:\Users\ENG\Source\Repos\PWANew\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.genruntimeconfig.cache
 C:\Users\ENG\Source\Repos\PWANew\PWA\Server\bin\Debug\netcoreapp3.1\Blazor.FileReader.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Blazor.FileReader.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.csproj.CoreCompileInputs.cache
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.MvcApplicationPartsAssemblyInfo.cache

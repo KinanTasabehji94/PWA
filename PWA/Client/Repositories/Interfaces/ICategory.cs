@@ -8,9 +8,9 @@ namespace PWA.Client.Repositories.Interfaces
 {
     public interface ICategory
     {
-        Task CreateCategory(Category category);
+        Task<int> CreateCategory(Category category);
         Task DeleteCategory(int Id);
-        Task<List<Category>> GetCategory();
+        Task<List<Category>> GetCategories();
         Task<Category> GetCategory(int Id);
         Task UpdateCategory(Category category);
     }

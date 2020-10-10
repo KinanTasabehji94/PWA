@@ -3,19 +3,6 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\bin\Debug\netstandard2.1\PWA.Sh
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\bin\Debug\netstandard2.1\PWA.Shared.pdb
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.AssemblyInfoInputs.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.AssemblyInfo.cs
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csproj.CoreCompileInputs.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.pdb
-<<<<<<< HEAD
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\bin\Debug\netstandard2.1\PWA.Shared.deps.json
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\bin\Debug\netstandard2.1\PWA.Shared.dll
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\bin\Debug\netstandard2.1\PWA.Shared.pdb
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.AssemblyInfoInputs.cache
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.AssemblyInfo.cs
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csproj.CoreCompileInputs.cache
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.dll
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.pdb
-=======
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csprojAssemblyReference.cache
-C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csproj.CoreCompileInputs.cache
->>>>>>> 490b3af8ebc2a62a8cde3a3d46602fea74ac5c2e
-C:\Users\ENG\Source\Repos\PWANew\PWA\Shared\obj\Debug\netstandard2.1\PWA.Shared.csprojAssemblyReference.cache

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj": {}
+    "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\PWA.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
+    "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj",
+        "projectUniqueName": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj",
         "projectName": "PWA.Client",
-        "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj",
-        "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\obj\\",
+        "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ENG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +31,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
-                "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
+              "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj"
               }
             }
           }
@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[3.2.0, )"
             },
+            "Telerik.UI.for.Blazor": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "Tewr.Blazor.FileReader": {
               "target": "Package",
               "version": "[1.5.0.20109, )"
@@ -88,24 +92,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj": {
+    "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\PWA.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
+        "projectUniqueName": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\PWA.Server.csproj",
         "projectName": "PWA.Server",
-        "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\PWA.Server.csproj",
-        "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Server\\obj\\",
+        "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\PWA.Server.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ENG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,11 +123,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj": {
-                "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Client\\PWA.Client.csproj"
+              "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj": {
+                "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj"
               },
-              "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
-                "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj"
+              "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj": {
+                "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj"
               }
             }
           }
@@ -137,6 +141,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -188,24 +196,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj": {
+    "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj",
         "projectName": "PWA.Shared",
-        "projectPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\PWA.Shared.csproj",
-        "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ENG\\Source\\Repos\\PWANew\\PWA\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj",
+        "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ENG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,7 +258,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

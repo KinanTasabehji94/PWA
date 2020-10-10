@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PWA.Server.Models;
 using PWA.Shared.Entities;
+using PWA.Server.Helpers;
+using AutoMapper;
 
 namespace PWA.Server.Controllers
 {
@@ -15,9 +17,13 @@ namespace PWA.Server.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ApplicationDbContext context;
+        private readonly IFileStorageService fileStorageService;
+        private readonly IMapper mapper;
 
-        public CategoriesController(ApplicationDbContext context)
+        public CategoriesController(ApplicationDbContext context, IFileStorageService fileStorageService, IMapper mapper)
         {
+            this.mapper = mapper;
+            this.fileStorageService = fileStorageService;
             this.context = context;
         }
 
@@ -39,6 +45,11 @@ namespace PWA.Server.Controllers
         [HttpPost]
         public async Task<ActionResult<int>> Post(Category category)
         {
+            if (!string.IsNullOrWhiteSpace(category.Image))
+            {
+                var categoryImage = Convert.FromBase64String(category.Image);
+                category.Image = await fileStorageService.SaveFile(categoryImage, "jpg", "categories");
+            }
             context.Add(category);
             await context.SaveChangesAsync();
             return category.Id;
@@ -47,7 +58,14 @@ namespace PWA.Server.Controllers
         [HttpPut]
         public async Task<ActionResult> Put(Category category)
         {
-            context.Attach(category).State = EntityState.Modified;
+            var categoryDB = await context.Category.FirstOrDefaultAsync(x => x.Id == category.Id);
+            if (categoryDB == null) { return NotFound(); }
+            categoryDB = mapper.Map(category, categoryDB);
+            if (!string.IsNullOrWhiteSpace(category.Image))
+            {
+                var categoryImage = Convert.FromBase64String(category.Image);
+                categoryDB.Image = await fileStorageService.EditFile(categoryImage, "jpg", "categories", categoryDB.Image);
+            }
             await context.SaveChangesAsync();
             return NoContent();
         }

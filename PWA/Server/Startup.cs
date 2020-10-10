@@ -14,6 +14,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System;
 using Blazor.FileReader;
+using PWA.Server.Helpers;
+using AutoMapper;
 
 namespace PWA.Server
 {
@@ -31,13 +33,17 @@ namespace PWA.Server
         public void ConfigureServices(IServiceCollection services)
         {
             //My Services
-            //services.AddScoped<IFileStorageService, InAppStorageService>();
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             //services.AddMvc().AddNewtonsoftJson(Options => Options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+           
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
             services.AddFileReaderService();
+            services.AddScoped<IFileStorageService, InAppStorageService>();
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             options.TokenValidationParameters = new TokenValidationParameters
             {
