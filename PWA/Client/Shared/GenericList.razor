@@ -2,33 +2,33 @@
 
 @if (List == null)
 {
-@if (NullTemplate != null)
-{
-@NullTemplate }
-else
-{
-// Default Content
-<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" />
-} }
+    @if (NullTemplate != null)
+    {
+        @NullTemplate }
+    else
+    {
+        // Default Content
+        <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" />
+    } }
 else if (List.Count == 0)
 {
-@if (EmptyTemplate != null)
-{
-@EmptyTemplate }
+    @if (EmptyTemplate != null)
+    {
+        @EmptyTemplate }
+    else
+    {
+        // Default Content
+        <text>There are no records to show</text>} }
 else
 {
-// Default Content
-<text>There are no records to show</text>} }
-else
-{
-@if (ElementTemplate != null)
-{
-@foreach (var element in List)
-{
-@ElementTemplate(element)} }
-else
-{
-@WholeListTemplate}}
+    @if (ElementTemplate != null)
+    {
+        @foreach (var element in List)
+        {
+            @ElementTemplate(element)} }
+    else
+    {
+        @WholeListTemplate}}
 
 @code { [Parameter] public RenderFragment NullTemplate { get; set; }
     [Parameter] public RenderFragment EmptyTemplate { get; set; }

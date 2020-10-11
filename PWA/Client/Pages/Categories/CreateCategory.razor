@@ -16,7 +16,7 @@
         try
         {
             await categoryRepository.CreateCategory(category);
-            navigationManager.NavigateTo("settings");
+            navigationManager.NavigateTo("categories");
         }
         catch(Exception ex)
         {

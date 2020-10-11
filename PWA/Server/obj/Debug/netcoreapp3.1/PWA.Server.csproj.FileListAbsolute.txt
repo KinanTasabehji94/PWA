@@ -510,3 +510,8 @@ C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\AutoMap
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.csproj.CoreCompileInputs.cache
 C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\obj\Debug\netcoreapp3.1\PWA.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Telerik.DataSource.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Telerik.Recurrence.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Telerik.Blazor.dll
+C:\Users\kinan\Desktop\Blzaor\PWA\PWA\PWA\Server\bin\Debug\netcoreapp3.1\Telerik.Zip.dll

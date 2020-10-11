@@ -79,6 +79,10 @@ namespace PWA.Server.Controllers
                 return NotFound();
             }
 
+            if (!string.IsNullOrWhiteSpace(category.Image))
+            {
+                await fileStorageService.DeleteFile(category.Image, "categories");
+            }
             context.Remove(category);
             await context.SaveChangesAsync();
             return NoContent();
