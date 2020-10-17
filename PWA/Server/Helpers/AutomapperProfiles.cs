@@ -14,6 +14,9 @@ namespace PWA.Server.Helpers
         {
             CreateMap<Category, Category>()
                 .ForMember(x => x.Image, option => option.Ignore());
+
+            CreateMap<SubCategory, SubCategory>()
+                .ForMember(x => x.Image, option => option.Ignore());
         }
     }
 }

@@ -29,11 +29,9 @@
                         <a href="/category/Edit/@context.Id"><TelerikButton Icon="edit" Class="btn-dark">Edit</TelerikButton></a>
                         &nbsp;&nbsp;
                         <ConfirmButton OnClick="@(() => DeleteRow(@context.Id))" ConfirmText="Are you sure you want to delete this category?" ButtonText="Delete" ConfirmTitle="Delete Category!" Icon="delete" ButtonType="btn-danger" />
-
-                        @*<TelerikButton Icon="delete" @onclick="@(() => DeleteRow(@context.Id))" Class="btn-outline-danger" Primary="true">Delete</TelerikButton>*@
                     </div>
                 </div>
-                <img class="k-card-image img-thumbnail" alt="Book Image" src="@context.Image" />
+                <img class="k-card-image img-thumbnail" alt="Category Image" src="@context.Image" />
             </div>
         </Template>
     </TelerikListView>
@@ -45,7 +43,7 @@
 @code{
     private List<Category> categories;
 
-    protected async override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
         categories = await categoryRepository.GetCategories();
     }

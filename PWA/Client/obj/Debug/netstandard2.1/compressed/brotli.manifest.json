@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_Reu5W27BZepXvxVf81EkGE51eri7PRvD3R-2NMXXKk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZSZhuXSMl8gl88Ez3aKAgSdRYsTTAG2JdUQmlJdkJqU=.hash",
       "Source": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PWA.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PWA.Client.dll.br"
     },
@@ -301,7 +301,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OD_V0xNpRnaqtP7AB26pGOWwMLc4s1Y3rZzB3bzBEeU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wucq-wh39o2ZxdYk2uyd32BQrbm9vPDWPCRl3D8cyxw=.hash",
       "Source": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PWA.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PWA.Shared.dll.br"
     },
@@ -321,12 +321,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\cMzPAJWzOUQAQVap4dqNjl9r0K1QVJKlbdLfdSZO9MU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RpIqDCu3doDob0ze2wBr0SS2S8epCazf2ncoz_TPJEs=.hash",
       "Source": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PWA.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PWA.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\W0AoVPw9edkMGNpBPC3Mkf7xNXQTARz0Kbotbl1LAr8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pezxlndiOUD26tMlJELOFzm6GDAWbnnApH4mMqdN1hE=.hash",
       "Source": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PWA.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PWA.Shared.pdb.br"
     },
@@ -351,12 +351,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\T2QNgzxj5gmJo_VV08Qk6988vpooJTN0XPg1g0sCCDk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YnAWM97TKbuqXDtjHHCsXV3t3PaZycVUfvLkayfGTuc=.hash",
       "Source": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6_0evRCeaDWmgZdKfWoU864GM9QfYyB8NQTdLU4Gnuo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NTmpJPoSEsNN9ViFLNY1GYArqd8F7WUNG9o4HB_a0bI=.hash",
       "Source": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }

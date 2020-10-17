@@ -20,7 +20,6 @@ function SidenavBlackOverlay() {
     document.getElementsByClassName("sidenav-black-overlay")[0].classList.remove("active");
 }
 
-
 //GetDarkMode Function
 function GetDarkMode() {
     return localStorage.getItem('theme');
@@ -64,3 +63,4 @@ function darkMode() {
         console.log("Hello World4");
     }
 }
+

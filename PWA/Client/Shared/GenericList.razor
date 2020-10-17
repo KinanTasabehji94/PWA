@@ -4,34 +4,48 @@
 {
     @if (NullTemplate != null)
     {
-        @NullTemplate }
+        @NullTemplate
+    }
     else
     {
-        // Default Content
-        <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" />
-    } }
+        <!-- Preloader-->
+        <div class="preloader" id="preloader">
+            <div class="spinner-grow text-secondary" role="status">
+                <div class="sr-only">Loading...</div>
+            </div>
+        </div>
+    }
+}
 else if (List.Count == 0)
 {
     @if (EmptyTemplate != null)
     {
-        @EmptyTemplate }
+        @EmptyTemplate
+    }
     else
     {
-        // Default Content
-        <text>There are no records to show</text>} }
+        <text>There are no data to show</text>
+    }
+}
 else
 {
     @if (ElementTemplate != null)
     {
         @foreach (var element in List)
         {
-            @ElementTemplate(element)} }
+            @ElementTemplate(element)
+        }
+    }
     else
     {
-        @WholeListTemplate}}
+        @WholeListTemplate
+    }
+}
 
-@code { [Parameter] public RenderFragment NullTemplate { get; set; }
+@code {
+    [Parameter] public RenderFragment NullTemplate { get; set; }
     [Parameter] public RenderFragment EmptyTemplate { get; set; }
     [Parameter] public RenderFragment<TItem> ElementTemplate { get; set; }
     [Parameter] public RenderFragment WholeListTemplate { get; set; }
-    [Parameter] public List<TItem> List { get; set; } }
+    [Parameter] public List<TItem> List { get; set; }
+}

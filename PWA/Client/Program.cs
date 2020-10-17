@@ -36,6 +36,7 @@ namespace PWA.Client
             builder.Services.AddScoped<JWTAuthenticationStateProvider>();
             builder.Services.AddScoped<IAccounts, AccountsRepository>();
             builder.Services.AddScoped<ICategory, CategoryRepository>();
+            builder.Services.AddScoped<ISubCategory, SubCategoryRepository>();
 
             builder.Services.AddTelerikBlazor();
 
