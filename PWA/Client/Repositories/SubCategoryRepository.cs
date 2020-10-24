@@ -28,6 +28,17 @@ namespace PWA.Client.Repositories
             }
             return response.Response;
         }
+
+        public async Task<List<SubCategory>> GetSubCategoriesByCategory(int CategoryId)
+        {
+            var response = await httpService.Get<List<SubCategory>>($"{url}/category/{CategoryId}");
+            if (!response.Success)
+            {
+                throw new ApplicationException(await response.GetBody());
+            }
+            return response.Response;
+        }
+
         public async Task<SubCategory> GetSubCategory(int Id)
         {
             var response = await httpService.Get<SubCategory>($"{url}/{Id}");

@@ -32,6 +32,16 @@ namespace PWA.Server.Controllers
         {
             return await context.SubCategory.Include(s => s.Category).ToListAsync();;
         }
+
+        [HttpGet("category/{CategoryId}")]
+        [AllowAnonymous]
+        public async Task<ActionResult<List<SubCategory>>> GetByCategory(int CategoryId)
+        {
+            var x = await context.SubCategory.Include(s => s.Category).Where(s => s.CategoryId == CategoryId).ToListAsync();
+            return x;
+        }
+
+
         [HttpGet("{id}")]
         public async Task<ActionResult<SubCategory>> Get(int id)
         {

@@ -11,6 +11,7 @@ namespace PWA.Client.Repositories.Interfaces
         Task<int> CreateSubCategory(SubCategory subCategory);
         Task DeleteSubCategory(int Id);
         Task<List<SubCategory>> GetSubCategories();
+        Task<List<SubCategory>> GetSubCategoriesByCategory(int categoryId);
         Task<SubCategory> GetSubCategory(int Id);
         Task UpdateSubCategory(SubCategory subCategory);
     }

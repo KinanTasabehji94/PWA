@@ -6995,23 +6995,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kinan\\.nuget\\packages\\": {},
+    "C:\\Users\\ENG\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\PWA.Server.csproj",
+      "projectUniqueName": "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Server\\PWA.Server.csproj",
       "projectName": "PWA.Server",
-      "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\PWA.Server.csproj",
-      "packagesPath": "C:\\Users\\kinan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Server\\obj\\",
+      "projectPath": "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Server\\PWA.Server.csproj",
+      "packagesPath": "C:\\Users\\ENG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kinan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ENG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7025,11 +7025,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj": {
-              "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Client\\PWA.Client.csproj"
+            "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Client\\PWA.Client.csproj": {
+              "projectPath": "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Client\\PWA.Client.csproj"
             },
-            "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj": {
-              "projectPath": "C:\\Users\\kinan\\Desktop\\Blzaor\\PWA\\PWA\\PWA\\Shared\\PWA.Shared.csproj"
+            "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Shared\\PWA.Shared.csproj": {
+              "projectPath": "C:\\Users\\ENG\\Desktop\\PWA\\PWA\\Shared\\PWA.Shared.csproj"
             }
           }
         }
@@ -7102,7 +7102,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
