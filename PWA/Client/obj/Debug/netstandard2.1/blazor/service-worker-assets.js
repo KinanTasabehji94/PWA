@@ -365,7 +365,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-QscbOFcqk79K1ILVAow\/YEiaRV+lKFRqjN34MUZvjCs=",
+      "hash": "sha256-ij9IOQbaLO9uCejfgUzA\/WE6BtfeQaoeg7lh5Ko0xHI=",
       "url": "_framework\/_bin\/PWA.Client.dll"
     },
     {
@@ -605,7 +605,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-EMBsqwo750NQthrWZ6egVNiYViPHUerN210YOYv2KSo=",
+      "hash": "sha256-zINmtj13KJjUAxuSOLyAteIIbaEaKAc8tEMwttd0kO0=",
       "url": "_framework\/_bin\/PWA.Shared.dll"
     },
     {
@@ -621,11 +621,11 @@
       "url": "_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll"
     },
     {
-      "hash": "sha256-xPwfG+NK8IjnW9wfR2Ly7F995yow+WKj7VaVqIcfEJc=",
+      "hash": "sha256-sI5jrCkJB7pMv9AGQuUkNRsPA8uHutloC6RW1Y9l3Lk=",
       "url": "_framework\/_bin\/PWA.Client.pdb"
     },
     {
-      "hash": "sha256-mHsAjLPDumYg\/8sS0nd3GP9wsN8EyvO\/gNd8bKUvcts=",
+      "hash": "sha256-ksj7RcfIapFlZsmFpEjkbvwETSrlyGdcwDFmXlIiw1Y=",
       "url": "_framework\/_bin\/PWA.Shared.pdb"
     },
     {
@@ -645,9 +645,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-zVHr\/NcGdlgINEP3Y60beRoxheYCAghVj4+cueC3gbc=",
+      "hash": "sha256-UIdrnQMFfGznJruWCZvtoUS73VBYSMN236273Ek1050=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "Seo8mF+w"
+  "version": "btt24KmL"
 };

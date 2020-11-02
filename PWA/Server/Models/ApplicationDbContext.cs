@@ -43,6 +43,11 @@ namespace PWA.Server.Models
                 entity.Property(e => e.Name)
                     .IsRequired()
                     .HasMaxLength(50);
+                entity.HasOne(d => d.SubCategory)
+                .WithMany(p => p.Product)
+                .HasForeignKey(d => d.SubCatId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Product_SubCategory");
             });
 
             modelBuilder.Entity<SubCategory>(entity =>

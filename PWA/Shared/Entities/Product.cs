@@ -12,5 +12,8 @@ namespace PWA.Shared.Entities
         public bool OutOfStock { get; set; }
         public int SubCatId { get; set; }
         public bool? Status { get; set; }
+        public string Image { get; set; }
+
+        public virtual SubCategory SubCategory { get; set; }
     }
 }

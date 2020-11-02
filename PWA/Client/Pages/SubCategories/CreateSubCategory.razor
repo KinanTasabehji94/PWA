@@ -16,7 +16,7 @@
         try
         {
             await subCategoryRepository.CreateSubCategory(subCategory);
-            navigationManager.NavigateTo("settings");
+            navigationManager.NavigateTo("SubCategories");
         }
         catch (Exception ex)
         {

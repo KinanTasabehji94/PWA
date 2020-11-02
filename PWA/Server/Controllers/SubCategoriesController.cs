@@ -30,7 +30,7 @@ namespace PWA.Server.Controllers
         [AllowAnonymous]
         public async Task<ActionResult<List<SubCategory>>> Get()
         {
-            return await context.SubCategory.Include(s => s.Category).ToListAsync();;
+            return await context.SubCategory.Include(s => s.Category).ToListAsync();
         }
 
         [HttpGet("category/{CategoryId}")]

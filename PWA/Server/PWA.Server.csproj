@@ -30,6 +30,7 @@
   <ItemGroup>
     <Folder Include="Migrations\" />
     <Folder Include="wwwroot\categories\" />
+    <Folder Include="wwwroot\products\" />
     <Folder Include="wwwroot\subCategories\" />
   </ItemGroup>
 

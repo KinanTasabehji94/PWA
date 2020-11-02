@@ -19,7 +19,7 @@
     private async Task Edit()
     {
         await subCategoryRepository.UpdateSubCategory(subCategory);
-        navigationManager.NavigateTo("settings");
+        navigationManager.NavigateTo("SubCategories");
     }
 
 }

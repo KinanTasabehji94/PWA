@@ -13,5 +13,6 @@ namespace PWA.Shared.Entities
         public bool? Status { get; set; }
 
         public virtual Category Category { get; set; }
+        public virtual  ICollection<Product> Product { get; set; }
     }
 }
