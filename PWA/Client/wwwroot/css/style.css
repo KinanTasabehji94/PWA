@@ -2932,3 +2932,16 @@ textarea:invalid {
   [data-theme="dark"] .blog-card .post-content .bg-shapes .circle3,
   [data-theme="dark"] .blog-card .post-content .bg-shapes .circle4 {
     border-color: rgba(255, 255, 255, 0.1); }
+
+
+  /*my Changes*/
+.user-profile-name {
+    position: relative;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 3rem auto 0.5rem;
+   
+}
+

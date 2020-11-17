@@ -38,7 +38,11 @@ namespace PWA.Client
             builder.Services.AddScoped<ICategory, CategoryRepository>();
             builder.Services.AddScoped<ISubCategory, SubCategoryRepository>();
             builder.Services.AddScoped<IProduct, ProductRepository>();
+            builder.Services.AddScoped<IUser, UserRepository>();
 
+
+            //Add Authintication
+            builder.Services.AddAuthorizationCore();
 
             builder.Services.AddTelerikBlazor();
 

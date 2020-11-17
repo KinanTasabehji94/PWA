@@ -1,6 +1,7 @@
 ﻿@page "/"
 @page "/index"
 @inject ICategory categoryRepository
+@inject IProduct productRepository
 
 <Header />
 
@@ -56,18 +57,69 @@
             </GenericList>
         </div>
     </div>
+
+    <!--Products-->
+    <div class="top-products-area clearfix">
+        <div class="container">
+            <div class="section-heading d-flex align-items-center justify-content-between">
+                <h6 class="ml-1">Top Products</h6><a class="btn btn-danger btn-sm" href="/products">View All</a>
+            </div>
+            <GenericList List="products">
+                <WholeListTemplate>
+                    <div class="row">
+                        <!-- Single Top Product Card-->
+                        @foreach (var product in products)
+                        {
+                            <div class="col-6 col-sm-4">
+                                <div class="card top-product-card mb-3">
+                                    <div class="card-body">
+                                        <span class="badge badge-success">Sale</span>
+                                        <a class="wishlist-btn" href="#">
+                                            <i class="lni-heart-filled"></i>
+                                        </a>
+                                        <a class="product-thumbnail d-block" href="single-product.html">
+                                            <img src="@product.Image" alt="@product.Name" class="img-thumbnail img" />
+                                        </a>
+                                        <a class="product-title d-block" href="single-product.html">
+                                            @product.Name
+                                        </a>
+                                        <a class="product-title d-block" href="single-product.html">
+                                            @product.Description
+                                        </a>
+                                        <p class="sale-price">
+                                            @{ 
+                                                var salePrice = product.Price / 2;
+                                            }
+                                            @salePrice
+                                            <span>
+                                                @product.Price
+                                            </span>
+                                        </p>
+                                        <div class="product-rating"><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i></div><a class="btn btn-success btn-sm add2cart-notify" href="#"><i class="lni-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </WholeListTemplate>
+            </GenericList>
+        </div>
+    </div>
 </div>
 
 <Footer />
 
 @code{
     private List<Category> categories;
+    private List<Product> products;
+
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
             categories = await categoryRepository.GetCategories();
+            products = await productRepository.GetProducts();
         }
         catch (Exception ex)
         {

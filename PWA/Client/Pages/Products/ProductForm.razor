@@ -1,5 +1,7 @@
 ﻿@inject ICategory categoryRepository
 @inject ISubCategory subCategoryRepository
+@inject IProduct productRepository
+@inject IJSRuntime js
 
 
 <div class="page-content-wrapper">
@@ -20,27 +22,37 @@
                         <div class="form-group">
                             <label>Category:</label>
                             <div>
-                                @*<TelerikComboBox @bind-Value="@categoryId" Data="@categories" Placeholder="Select Category"
-                                                 TextField="@nameof(Category.Name)" ValueField="@nameof(Category.Id)" Filterable="true" OnChange="@OnChange()"
+                                <TelerikComboBox @bind-Value="@categoryId" Data="@categories" Placeholder="Select Category" OnChange="@(() => OnChange(categoryId))"
+                                                 TextField="@nameof(Category.Name)" ValueField="@nameof(Category.Id)" Filterable="true"
                                                  Id="category">
-                                </TelerikComboBox>*@
-                                <select onchange="onchange(this.options[this.selectedIndex].value)" class="form-control">
-                                    @foreach (var item in categories)
-                                    {
-                                        <option value="@item.Id">@item.Name</option>
-                                    }
-                                </select>
+                                </TelerikComboBox>
+
                             </div>
                         </div>
                         <div class="form-group">
                             <label>SubCategory:</label>
                             <div>
-                                <TelerikComboBox @bind-Value="@product.SubCatId" Data="@subCategories" Placeholder="Select SubCategory"
+                                <TelerikComboBox @bind-Value="@product.SubCatId" Data="@newsubCategories" Placeholder="Select SubCategory"
                                                  TextField="@nameof(SubCategory.Name)" ValueField="@nameof(SubCategory.Id)" Filterable="true"
                                                  Id="subCategory">
                                 </TelerikComboBox>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label>SubCategory:</label>
+                            @if (categories != null)
+                            {
+
+
+                                <select @onchange="GetSubByCat" class="form-control">
+                                    @foreach (var item in categories)
+                                    {
+                                        <option value="@item.Id">@item.Name</option>
+                                    }
+                                </select>
+                            }
+                        </div>
+
                         <div class="form-group">
                             <label>Name:</label>
                             <div>
@@ -91,6 +103,7 @@
     private int categoryId;
     private List<Category> categories;
     private List<SubCategory> subCategories;
+    private List<SubCategory> newsubCategories;
 
 
     protected override void OnInitialized()
@@ -105,17 +118,41 @@
     protected override async Task OnInitializedAsync()
     {
         categories = await categoryRepository.GetCategories();
+        subCategories = await subCategoryRepository.GetSubCategories();
     }
-    async Task OnChange(int categoryId)
+    private async Task OnChange(int categoryId)
     {
-        subCategories = await subCategoryRepository.GetSubCategoriesByCategory(categoryId);
+        Console.WriteLine("Hello");
+        newsubCategories =subCategories.Where(s => s.CategoryId == categoryId).ToList();
+        foreach (var item in newsubCategories)
+        {
+            Console.WriteLine(item.Name);
+
+        }
+        Console.WriteLine("World");
+
 
     }
+
+
 
     private void PictureSelected(string imageBase64)
     {
         product.Image = imageBase64;
         imageURL = null;
         Console.WriteLine(imageBase64);
+    }
+
+
+
+    protected async Task GetSubByCat()
+    {
+        subCategories = await subCategoryRepository.GetSubCategoriesByCategory(8);
+        await Task.Delay(3000);
+        foreach (var item in subCategories)
+        {
+            Console.WriteLine(item.Name);
+
+        }
     }
 }

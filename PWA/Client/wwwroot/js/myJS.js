@@ -63,4 +63,12 @@ function darkMode() {
         console.log("Hello World4");
     }
 }
+function GetSubByCat() {
+    console.log("Hello World5");
+
+    //document.getElementById("sidenavWrapper").classList.add("nav-active");
+    //document.getElementById("headerArea").classList.add("header-out");
+    //document.getElementById("footerNav").classList.add("footer-out");
+    //document.getElementsByClassName("sidenav-black-overlay")[0].classList.add("active");
+}
 
