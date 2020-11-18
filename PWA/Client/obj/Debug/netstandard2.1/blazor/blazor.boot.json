@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "PWA.Client.dll": "sha256-3vqp3kfFa182xnms2doXokVlcp2AIxyW6JANLaUS5LU=",
+      "PWA.Client.dll": "sha256-9fagCyoxltMHZYgDReLpfnpD6k8SVtdBCn+95r7yPDY=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-OJlJ\/n0p9\/SW1kpHK6YE8g6oWHKImKZVf+VvZlVBJ60=",
       "Microsoft.Extensions.Options.dll": "sha256-jy2f00FanofpLVaiV0ZLVMwgeQoAAw0lk598xWLLjCw=",
       "Microsoft.Extensions.Primitives.dll": "sha256-gVSVeQ5oYtEMI+SN4sTxxJUMIQATQ0ezbACLauNlgX8=",
@@ -72,7 +72,7 @@
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-ke6Q\/xgZ4S1GlnU3EPO8TQYcI5FdDbg9t4C\/JGKvSrY="
     },
     "pdb": {
-      "PWA.Client.pdb": "sha256-RUuaV9FIHBs5eFm+ADKadsf24OnpMWfeXqT4EjxUKdg=",
+      "PWA.Client.pdb": "sha256-QKSpPl4v6WtrwED8Dw1vx9Ti8p2aFCjL73q3JUgoo9E=",
       "PWA.Shared.pdb": "sha256-43gz2n0zWQ+Jt\/PttilTu5YN7RmizfQwLKalS01fW3s="
     },
     "runtime": {

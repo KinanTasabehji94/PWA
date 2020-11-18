@@ -1016,7 +1016,7 @@ C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\Razor\Pages\Product
 C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\ULr1shfYisjNWxcrjwNxR2_eRqtUyB1B2w3fev4_l4c=.hash
 C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\43gz2n0zWQ_Jt-PttilTu5YN7RmizfQwLKalS01fW3s=.hash
 C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\RAv5ErAP8TOatg5uOzmlwlJKLTACgMz2bHVh5wtaO_8=.hash
-C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\uNPnypOkVbQTUL9vkfkpADbgbnk0gi8Flmd-StNVO6k=.hash
-C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\3vqp3kfFa182xnms2doXokVlcp2AIxyW6JANLaUS5LU=.hash
-C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\RUuaV9FIHBs5eFm_ADKadsf24OnpMWfeXqT4EjxUKdg=.hash
-C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\L-7MtXHQyOv9Y5Xq3S5Y_dQHzWNOec0EskVTNevGaSg=.hash
+C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\9fagCyoxltMHZYgDReLpfnpD6k8SVtdBCn_95r7yPDY=.hash
+C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\QKSpPl4v6WtrwED8Dw1vx9Ti8p2aFCjL73q3JUgoo9E=.hash
+C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\63cq-cyHs1riCM29hJdV8S1Z4z5Of-NcrSws96m0MEI=.hash
+C:\Users\ENG\Desktop\PWA\PWA\Client\obj\Debug\netstandard2.1\integrity\qp3P0Cv-dtvHhCl9Dfzv7E00DsYW7Vd_kN_z1VOeSsI=.hash
